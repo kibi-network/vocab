@@ -1,0 +1,2 @@
+# vocab
+Kibi Network Vocabularies
