@@ -6,6 +6,8 @@
 			"dc": "http://purl.org/dc/terms/",
 			"instance": "https://vocab.KIBI.network/instance#",
 			"press": "https://vocab.KIBI.network/press#",
+			"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+			"xsd": "http://www.w3.org/2001/XMLSchema#",
 			"Anthology": "press:Anthology",
 			"Author": "press:Author",
 			"Chapter": "press:Chapter",
@@ -14,19 +16,58 @@
 			"Server": "press:Server",
 			"Tag": "press:Tag",
 			"Work": "press:Work",
-			"anthologies": "press:anthologies",
-			"contentHTML": "content:contentHTML",
-			"contentXML": "content:contentXML",
-			"idRef": "press:idRef",
-			"isFreelyAvailable": "press:isFreelyAvailable",
-			"isPseudOf": "press:isPseudOf",
-			"license": "dc:license",
-			"paragraphs": "press:paragraphs",
-			"pseuds": "press:pseuds",
-			"publications": "press:publications",
-			"recs": "press:recs",
-			"serverInfo": "instance:serverInfo",
-			"wordCount": "press:wordCount"
+			"anthologies": {
+				"@id": "press:anthologies",
+				"@type": "@id"
+			},
+			"contentHTML": {
+				"@id": "content:contentHTML",
+				"@type": "rdf:HTML"
+			},
+			"contentXML":  {
+				"@id": "content:contentXML",
+				"@type": "rdf:XMLLiteral"
+			},
+			"idRef": {
+				"@id": "press:idRef",
+				"@type": "xsd:NCName"
+			},
+			"isFreelyAvailable": {
+				"@id": "press:isFreelyAvailable",
+				"@type": "xsd:boolean"
+			},
+			"isPseudOf": {
+				"@id": "press:isPseudOf",
+				"@type": "@id"
+			},
+			"license": {
+				"@id": "dc:license",
+				"@type": "@id"
+			},
+			"paragraphs": {
+				"@id": "press:paragraphs",
+				"@type": "@id"
+			},
+			"pseuds": {
+				"@id": "press:pseuds",
+				"@type": "@id"
+			},
+			"publications": {
+				"@id": "press:publications",
+				"@type": "@id"
+			},
+			"recs": {
+				"@id": "press:recs",
+				"@type": "@id"
+			},
+			"serverInfo": {
+				"@id": "instance:serverInfo",
+				"@type": "@id"
+			},
+			"wordCount": {
+				"@id": "press:wordCount",
+				"@type": "xsd:nonNegativeInteger"
+			}
 		}
 	]
 }
