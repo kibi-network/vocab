@@ -1,0 +1,32 @@
+{
+	"@context": [
+		"https://www.w3.org/ns/activitystreams",
+		{
+			"content": "https://vocab.KIBI.network/content#",
+			"dc": "http://purl.org/dc/terms/",
+			"instance": "https://vocab.KIBI.network/instance#",
+			"press": "https://vocab.KIBI.network/press#",
+			"Anthology": "press:Anthology",
+			"Author": "press:Author",
+			"Chapter": "press:Chapter",
+			"Comment": "press:Comment",
+			"Paragraph": "press:Paragraph",
+			"Server": "press:Server",
+			"Tag": "press:Tag",
+			"Work": "press:Work",
+			"anthologies": "press:anthologies",
+			"contentHTML": "content:contentHTML",
+			"contentXML": "content:contentXML",
+			"idRef": "press:idRef",
+			"isFreelyAvailable": "press:isFreelyAvailable",
+			"isPseudOf": "press:isPseudOf",
+			"license": "dc:license",
+			"paragraphs": "press:paragraphs",
+			"pseuds": "press:pseuds",
+			"publications": "press:publications",
+			"recs": "press:recs",
+			"serverInfo": "instance:serverInfo",
+			"wordCount": "press:wordCount"
+		}
+	]
+}
