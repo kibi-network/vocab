@@ -2,10 +2,10 @@
 	"@context": [
 		"https://www.w3.org/ns/activitystreams",
 		{
-			"content": "https://vocab.KIBI.network/content/#",
+			"content": "https://vocab.KIBI.network/Content/#",
 			"dc": "http://purl.org/dc/terms/",
-			"instance": "https://vocab.KIBI.network/instance/#",
-			"press": "https://vocab.KIBI.network/press/#",
+			"instance": "https://vocab.KIBI.network/Instance/#",
+			"press": "https://vocab.KIBI.network/Press/#",
 			"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
 			"xsd": "http://www.w3.org/2001/XMLSchema#",
 			"Anthology": "press:Anthology",
